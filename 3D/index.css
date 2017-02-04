@@ -20,9 +20,8 @@
 	font-size: 100px;
 	position: absolute;
 	transform-origin: bottom;
-	transition: transform 1s linear;
-	transform: rotateX(90deg);
+	transition: transform 2s linear;
 }
-#page1 {
-	transform: rotateX(0deg);
+#page2, #page3, #page4, #page5, #page6{
+	transform: rotateX(90deg);
 }
