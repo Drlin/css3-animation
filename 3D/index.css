@@ -1,0 +1,28 @@
+.box {
+	perspective: 800;  /*视距*/
+	perspective-origin: 50% 50%;
+}
+.page_group {
+	width: 400px;
+	height: 400px;
+	margin: 200px auto;
+	position: relative;
+	transform-style: preserve-3d;
+}
+.page_group > div{
+	width: 360px;
+	height: 360px;
+	padding: 20px;
+	background-color: black;
+	color: #fff;
+	line-height: 360px;
+	text-align: center;
+	font-size: 100px;
+	position: absolute;
+	transform-origin: bottom;
+	transition: transform 1s linear;
+	transform: rotateX(90deg);
+}
+#page1 {
+	transform: rotateX(0deg);
+}
