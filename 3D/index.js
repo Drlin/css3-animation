@@ -28,20 +28,20 @@
 			if (this.page >= 6) {
 				return;
 			}
-			var curPage = document.getElementById(`page${this.page}`);
+			let curPage = document.getElementById(`page${this.page}`);
 			curPage.style.transform = 'rotateX(-90deg)';
 			this.page++;
-			var nextPage = document.getElementById(`page${this.page}`);
+			let nextPage = document.getElementById(`page${this.page}`);
 			nextPage.style.transform = 'rotateX(0deg)';
 		},
 		pre() {
 			if (this.page <= 1) {
 				return;
 			}
-			var curPage = document.getElementById(`page${this.page}`);
+			let curPage = document.getElementById(`page${this.page}`);
 			curPage.style.transform = 'rotateX(90deg)';
 			this.page--;
-			var nextPage = document.getElementById(`page${this.page}`);
+			let nextPage = document.getElementById(`page${this.page}`);
 			nextPage.style.transform = 'rotateX(0deg)';
 		}
 	}
