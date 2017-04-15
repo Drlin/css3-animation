@@ -1,0 +1,25 @@
+div.style.webkitTransform = div.style.transform = rotate(60deg)
+perspire 景深
+
+
+skew斜切
+  
+
+scale缩放 
+
+translate位移
+
+
+
+transform  的执行顺序 从后向前执行
+
+transform-origin 变化原点 默认center center
+关键字 长度单位
+
+skew scale rotate 受变化原点影响 
+
+translate不会受原点影响 
+
+
+transform style是否保留子元素变化
+第一级子元素
